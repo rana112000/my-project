@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rana Abdelrahman • Web Entry Designer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand rana-title" href="#">Rana</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header/Profile -->
+    <header class="container d-flex flex-column align-items-center mt-4 mb-5 text-center">
+        <img src="./488424450_3385940681542446_5060709701619130065_n.jpg" alt="Rana Abdelrahman Photo" class="pp-img">
+        <div class="rana-title">Rana Abdelrahman</div>
+        <div class="rana-role">Web Entry Designer</div>
+        <div id="about" class="rana-bio mx-auto">
+            Welcome! I'm <b>Rana Abdelrahman</b>, a passionate entry-level web designer based in Cairo, Egypt. During the day, I create user-friendly interfaces, and in the evening, I work on freelance projects to expand my skills. I love turning complex
+            problems into simple, beautiful, and intuitive designs.
+        </div>
+    </header>
+
+    <!-- Education Section -->
+    <section id="education" class="container section-container">
+        <h2 class="section-title">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2018 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Computer Science</h3>
+                    <p>fayoum University</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2014 - 2017</div>
+                <div class="timeline-content">
+                    <h3>High School Diploma</h3>
+                    <p>International School of Egypt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="container section-container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+
+             <div class="timeline-item">
+                <div class="timeline-date">2022 - Present</div>
+                <div class="timeline-content">
+                    <h3>Shop Manager</h3>
+                    <p>ABA Designs Company</p>
+                    <ul class="timeline-details">
+                        <li>Assisted in  redesign For Shein and Temu Accounts</li>
+                        <li>Created Mockups And Listings</li>
+                        <li>Learned modern Designs</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2020 - 2021</div>
+                <div class="timeline-content">
+                    <h3> Web Designer</h3>
+                    <p>Creative Solutions Agency</p>
+                    <ul class="timeline-details">
+                        <li>Design and implement responsive websites</li>
+                        <li>Collaborate with clients to create user-friendly interfaces</li>
+                        <li>Optimize website performance and user experience</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2019 - 2020</div>
+                <div class="timeline-content">
+                    <h3>Web Design Intern</h3>
+                    <p>Digital Innovation Lab</p>
+                    <ul class="timeline-details">
+                        <li>Assisted in website redesign projects</li>
+                        <li>Created wireframes and prototypes</li>
+                        <li>Learned modern web development practices</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Portfolio Section stays the same -->
+    <section id="portfolio" class="portfolio-section container">
+        <h2 class="rana-title text-center mb-4">Featured Projects</h2>
+        <div class="row justify-content-center">
+            <!-- PROJECT 1: GitHub Profile README Generator -->
+            <div class="col-md-4">
+                <div class="project-card">
+                    <div class="project-gradient-header"></div>
+                    <div class="px-4 pb-4">
+                        <img class="project-img" src="./f577fae3d12d9042da7f02518f215aaf.jpeg" alt="GitHub Profile README Generator" />
+                        <h3 class="project-title">GitHub Profile Generator</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">GitHub API</span>
+                        </div>
+                        <p class="project-desc">A tool that helps developers create beautiful README profiles for their GitHub accounts with custom templates and markdown support.</p>
+                        <div class="project-actions">
+                            <a href="https://rahuldkjain.github.io/gh-profile-readme-generator" target="_blank" class="project-action-btn primary">Live Demo <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+                            <a href="https://github.com/rahuldkjain/github-profile-readme-generator" target="_blank" class="project-action-btn secondary">View Code <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 2: Dev Portfolio -->
+            <div class="col-md-4">
+                <div class="project-card">
+                    <div class="project-gradient-header"></div>
+                    <div class="px-4 pb-4">
+                        <img class="project-img" src="./Capture.PNG" alt="Dev Portfolio" />
+                        <h3 class="project-title">Developer Portfolio</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Tailwind</span>
+                            <span class="tech-tag">TypeScript</span>
+                        </div>
+                        <p class="project-desc">A modern portfolio template for developers featuring dark mode, blog support, and dynamic content management.</p>
+                        <div class="project-actions">
+                            <a href="https://dev-portfolio-template.netlify.app" target="_blank" class="project-action-btn primary">Live Demo <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+                            <a href="https://github.com/smakosh/next-portfolio-dev" target="_blank" class="project-action-btn secondary">View Code <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 3: Weather App -->
+            <div class="col-md-4">
+                <div class="project-card">
+                    <div class="project-gradient-header"></div>
+                    <div class="px-4 pb-4">
+                        <img class="project-img" src="./1.png" alt="Weather App" />
+                        <h3 class="project-title">React Weather App</h3>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">OpenWeather API</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <p class="project-desc">A beautiful weather application with real-time updates, location search, and detailed weather information using the OpenWeather API.</p>
+                        <div class="project-actions">
+                            <a href="https://react-weather-app-demo.netlify.app" target="_blank" class="project-action-btn primary">Live Demo <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+                            <a href="https://github.com/weather-app/react-weather" target="_blank" class="project-action-btn secondary">View Code <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="container section-container">
+        <h2 class="section-title">Achievements</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏆</div>
+                    <h3>Web Design Excellence</h3>
+                    <p>First place in University Web Design Competition 2023</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="achievement-card">
+                    <div class="achievement-icon">📜</div>
+                    <h3>Google UX Design</h3>
+                    <p>Professional Certificate - Coursera</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="achievement-card">
+                    <div class="achievement-icon">💡</div>
+                    <h3>Innovation Award</h3>
+                    <p>Best Creative Solution - Design Hackathon 2022</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mx-auto">
+        <div class="contact-title">Let's Connect</div>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" required autocomplete="off">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" required autocomplete="off">
+            </div>
+            <div class="mb-3">
+                <label for="msg" class="form-label">Message</label>
+                <textarea class="form-control" id="msg" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success px-4 py-2 fw-bold">Send</button>
+            <div id="form-message" class="mt-2 text-success fw-semibold d-none"></div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2025 Rana Abdelrahman &mdash; Creative Web Entry Designer
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
